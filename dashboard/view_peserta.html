@@ -10,9 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">  
 
     <!-- [Favicon] icon -->
-    <link rel="icon" href="../assets/images/logo-pizza-hut.png" type="image/x-icon"> <!-- [Font] Family -->
-    <link rel="stylesheet" href="../assets/css/plugins/notifier.css">
-    <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css">
+    <link rel="icon" href="../assets/images/logo-pizza-hut.png" type="image/x-icon"> <!-- [Font] Family -->    
+    <link href="../assets/css/plugins/animate.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css">    
     <link rel="stylesheet" href="../assets/fonts/inter/inter.css" id="main-font-link" />
     <!-- [Tabler Icons] https://tablericons.com -->
     <link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" >
@@ -24,65 +24,14 @@
     <link rel="stylesheet" href="../assets/fonts/material.css" >
     <!-- [Template CSS Files] -->
     <link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" >
-    <link rel="stylesheet" href="../assets/css/style-preset.css" >
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-14K1GBX9FG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-14K1GBX9FG');
-    </script>
-    <!-- WiserNotify -->
-    <script>
-      !(function () {
-        if (window.t4hto4) console.log('WiserNotify pixel installed multiple time in this page');
-        else {
-          window.t4hto4 = !0;
-          var t = document,
-            e = window,
-            n = function () {
-              var e = t.createElement('script');
-              (e.type = 'text/javascript'),
-                (e.async = !0),
-                (e.src = 'https://pt.wisernotify.com/pixel.js?ti=1jclj6jkfc4hhry'),
-                document.body.appendChild(e);
-            };
-          'complete' === t.readyState ? n() : window.attachEvent ? e.attachEvent('onload', n) : e.addEventListener('load', n, !1);
-        }
-      })();
-    </script>
-    <!-- Microsoft clarity -->
-    <script type="text/javascript">
-      (function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = 'https://www.clarity.ms/tag/' + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, 'clarity', 'script', 'gkn6wuhrtb');
-    </script>
-
+    <link rel="stylesheet" href="../assets/css/style-preset.css" >    
+    
   </head>
   <!-- [Head] end -->
   <!-- [Body] Start -->
 
   <body data-pc-preset="preset-5" data-pc-sidebar-caption="true" data-pc-direction="ltr" data-pc-theme_contrast="" data-pc-theme="light">
-    <!-- [ Pre-loader ] start -->
-<div class="loader-bg">
-  <div class="loader-track">
-    <div class="loader-fill"></div>
-  </div>
-</div>
-<!-- [ Pre-loader ] End -->
+   
  <!-- [ Sidebar Menu ] start -->
 <nav class="pc-sidebar">
   <div class="navbar-wrapper">
@@ -937,9 +886,9 @@
                         <div class="modal-body">
                           <p>Anda yakin untuk menghapus data [Nama Peserta]?</p>                                        
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer btn-page">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                          <button type="button" class="btn btn-primary" id="btn-danger-ac">Lanjutkan</button>
+                          <button type="button" class="btn btn-primary bs-message" data-bs-dismiss="modal">Lanjutkan</button>
                         </div>
                       </div>
                     </div>
@@ -1039,7 +988,7 @@
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                          <input type="submit" class="btn btn-primary" value="Submit">
+                          <input type="submit" class="btn btn-primary bs-success-ico" data-bs-dismiss="modal" value="Submit">
                         </div>
                       </form>
                       </div>
@@ -1086,9 +1035,9 @@
     <script src="../assets/js/plugins/buttons.html5.min.js"></script>
     <script src="../assets/js/plugins/buttons.bootstrap5.min.js"></script>
     <script src="../assets/js/plugins/bouncer.min.js"></script>
-    <script src="../assets/js/pages/form-validation.js"></script>    
-    <script src="../assets/js/plugins/notifier.js"></script>
-    <script src="../assets/js/pages/ac-notification.js"></script>
+    <script src="../assets/js/pages/form-validation.js"></script>     
+    <script src="../assets/js/plugins/sweetalert2.all.min.js"></script>
+    <script src="../assets/js/pages/ac-alert.js"></script>   
     <script>
       // [ HTML5 Export Buttons ]
       $('#basic-btn').DataTable({
@@ -1146,7 +1095,7 @@
     <script>change_box_container('false');</script>
     <script>layout_caption_change('true');</script>
     <script>layout_rtl_change('false');</script>
-    <script>preset_change("preset-5");</script>
+    <script>preset_change("preset-5");</script> 
     
   </body>
   <!-- [Body] end -->

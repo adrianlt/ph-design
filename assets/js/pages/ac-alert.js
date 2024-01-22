@@ -1,7 +1,7 @@
 'use strict';
 (function () {
 document.querySelector('.bs-message').addEventListener('click', function () {
-  Swal.fire('Any fool can use a computer');
+  Swal.fire('Berhasil Disimpan!');
 });
 
 document.querySelector('.bs-tit-txt').addEventListener('click', function () {
