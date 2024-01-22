@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Head] start -->
+
+  <head>
+    <title>Dashboard | Pizza Hut Recruitment Restaurant Crew</title>
+    <!-- [Meta] -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+
+    <!-- [Favicon] icon -->
+    <link rel="icon" href="../assets/images/logo-pizza-hut.png" type="image/x-icon"> <!-- [Font] Family -->
+    <link rel="stylesheet" href="../assets/css/plugins/notifier.css">
+    <link rel="stylesheet" href="../assets/css/plugins/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="../assets/fonts/inter/inter.css" id="main-font-link" />
+    <!-- [Tabler Icons] https://tablericons.com -->
+    <link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" >
+    <!-- [Feather Icons] https://feathericons.com -->
+    <link rel="stylesheet" href="../assets/fonts/feather.css" >
+    <!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="../assets/fonts/fontawesome.css" >
+    <!-- [Material Icons] https://fonts.google.com/icons -->
+    <link rel="stylesheet" href="../assets/fonts/material.css" >
+    <!-- [Template CSS Files] -->
+    <link rel="stylesheet" href="../assets/css/style.css" id="main-style-link" >
+    <link rel="stylesheet" href="../assets/css/style-preset.css" >
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-14K1GBX9FG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-14K1GBX9FG');
+    </script>
+    <!-- WiserNotify -->
+    <script>
+      !(function () {
+        if (window.t4hto4) console.log('WiserNotify pixel installed multiple time in this page');
+        else {
+          window.t4hto4 = !0;
+          var t = document,
+            e = window,
+            n = function () {
+              var e = t.createElement('script');
+              (e.type = 'text/javascript'),
+                (e.async = !0),
+                (e.src = 'https://pt.wisernotify.com/pixel.js?ti=1jclj6jkfc4hhry'),
+                document.body.appendChild(e);
+            };
+          'complete' === t.readyState ? n() : window.attachEvent ? e.attachEvent('onload', n) : e.addEventListener('load', n, !1);
+        }
+      })();
+    </script>
+    <!-- Microsoft clarity -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', 'gkn6wuhrtb');
+    </script>
+
+  </head>
+  <!-- [Head] end -->
+  <!-- [Body] Start -->
+
+  <body data-pc-preset="preset-5" data-pc-sidebar-caption="true" data-pc-direction="ltr" data-pc-theme_contrast="" data-pc-theme="light">
+    <!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+  <div class="loader-track">
+    <div class="loader-fill"></div>
+  </div>
+</div>
+<!-- [ Pre-loader ] End -->
+ <!-- [ Sidebar Menu ] start -->
+<nav class="pc-sidebar">
+  <div class="navbar-wrapper">
+    <div class="m-header">
+      <a href="../dashboard/index.html" class="b-brand text-primary">
+        <!-- ========   Change your logo from here   ============ -->
+        <img src="../assets/images/logo-pizza-hut.png" class="img-fluid-logo logo-lg" alt="logo">
+        <span class="badge bg-light-danger rounded-pill ms-2 theme-version">Rekrutmen Restaurant Crew</span>
+      </a>
+    </div>
+    <div class="navbar-content">
+      <div class="card pc-user-card">
+        <div class="card-body">
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img src="../assets/images/user/avatar-1.jpg" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+            </div>
+            <div class="flex-grow-1 ms-3 me-2">
+              <h6 class="mb-0">Nikola Tesla</h6>
+              <small>Futurist</small>
+            </div>
+            <a class="btn btn-icon btn-link-secondary avtar" data-bs-toggle="collapse" href="#pc_sidebar_userlink">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-sort-outline"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="collapse pc-user-links" id="pc_sidebar_userlink">
+            <div class="pt-3">
+              <a href="#!">
+                <i class="ti ti-user"></i>
+                <span>My Account</span>
+              </a>
+              <a href="#!">
+                <i class="ti ti-settings"></i>
+                <span>Settings</span>
+              </a>
+              <a href="#!">
+                <i class="ti ti-lock"></i>
+                <span>Lock Screen</span>
+              </a>
+              <a href="#!">
+                <i class="ti ti-power"></i>
+                <span>Logout</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="pc-navbar">
+        <li class="pc-item pc-caption">
+          <label>Main Menu</label>
+        </li>
+        <li class="pc-item">
+          <a href="index.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-row-vertical"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Dashboard</span>                        
+          </a>          
+        </li>
+
+        <li class="pc-item pc-caption">
+          <label>Data Master</label>
+        </li>
+        <li class="pc-item">
+          <a href="view_peserta.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-user"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Peserta</span>
+          </a>
+        </li>
+
+        <li class="pc-item">
+          <a href="view_penanggung_jawab.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-user-square"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Penanggung Jawab</span>           
+          </a>          
+        </li>
+
+        <li class="pc-item">
+          <a href="#!" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-shield"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Pengawas</span>           
+          </a>          
+        </li>
+        
+ 
+        <li class="pc-item pc-caption">
+          <label>Paket Asessment</label>
+          <svg class="pc-icon">
+            <use xlink:href="#custom-presentation-chart"></use>
+          </svg>
+        </li>
+        <li class="pc-item">
+          <a href="view_tes_1.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-graph"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Tes 1</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="view_tes_2.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-element-plus"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Tes 2</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="view_tes_3.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-note-1"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Tes 3</span></a>
+        </li>
+        <li class="pc-item">
+          <a href="view_tes_4.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-shapes"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Tes 4</span>
+          </a>
+        </li>
+        <li class="pc-item">
+          <a href="view_tes_5.html" class="pc-link">
+            <span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-crop"></use>
+              </svg>
+            </span>
+            <span class="pc-mtext">Tes 5</span></a>
+        </li>
+
+        <li class="pc-item pc-caption">
+          <label>Pelaksanaan Asessment</label>
+          <svg class="pc-icon">
+            <use xlink:href="#custom-box-1"></use>
+          </svg>
+        </li>
+        <li class="pc-item">
+          <a href="view_kelas.html" class="pc-link" target="_blank"
+            ><span class="pc-micon">
+              <svg class="pc-icon">
+                <use xlink:href="#custom-box-1"></use>
+              </svg> </span
+            ><span class="pc-mtext">Kelas</span></a>
+        </li>        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- [ Sidebar Menu ] end --> <!-- [ Header Topbar ] start -->
+<header class="pc-header">
+  <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
+<div class="me-auto pc-mob-drp">
+  <ul class="list-unstyled">
+    <!-- ======= Menu collapse Icon ===== -->
+    <li class="pc-h-item pc-sidebar-collapse">
+      <a href="#" class="pc-head-link ms-0" id="sidebar-hide">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="pc-h-item pc-sidebar-popup">
+      <a href="#" class="pc-head-link ms-0" id="mobile-collapse">
+        <i class="ti ti-menu-2"></i>
+      </a>
+    </li>
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none m-0 trig-drp-search"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <svg class="pc-icon">
+          <use xlink:href="#custom-search-normal-1"></use>
+        </svg>
+      </a>
+      <div class="dropdown-menu pc-h-dropdown drp-search">
+        <form class="px-3 py-2">
+          <input type="search" class="form-control border-0 shadow-none" placeholder="Search here. . ." />
+        </form>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- [Mobile Media Block end] -->
+<div class="ms-auto">
+  <ul class="list-unstyled">
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <svg class="pc-icon">
+          <use xlink:href="#custom-sun-1"></use>
+        </svg>
+      </a>
+      <div class="dropdown-menu dropdown-menu-end pc-h-dropdown">
+        <a href="#!" class="dropdown-item" onclick="layout_change('dark')">
+          <svg class="pc-icon">
+            <use xlink:href="#custom-moon"></use>
+          </svg>
+          <span>Dark</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change('light')">
+          <svg class="pc-icon">
+            <use xlink:href="#custom-sun-1"></use>
+          </svg>
+          <span>Light</span>
+        </a>
+        <a href="#!" class="dropdown-item" onclick="layout_change_default()">
+          <svg class="pc-icon">
+            <use xlink:href="#custom-setting-2"></use>
+          </svg>
+          <span>Default</span>
+        </a>
+      </div>
+    </li>        
+    <li class="dropdown pc-h-item">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        aria-expanded="false"
+      >
+        <svg class="pc-icon">
+          <use xlink:href="#custom-notification"></use>
+        </svg>
+        <span class="badge bg-success pc-h-badge">3</span>
+      </a>
+      <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Notifications</h5>
+          <a href="#!" class="btn btn-link btn-sm">Mark all read</a>
+        </div>
+        <div class="dropdown-body text-wrap header-notification-scroll position-relative" style="max-height: calc(100vh - 215px)">
+          <p class="text-span">Today</p>
+          <div class="card mb-2">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <svg class="pc-icon text-primary">
+                    <use xlink:href="#custom-layer"></use>
+                  </svg>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">2 min ago</span>
+                  <h5 class="text-body mb-2">UI/UX Design</h5>
+                  <p class="mb-0"
+                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type</p
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <svg class="pc-icon text-primary">
+                    <use xlink:href="#custom-sms"></use>
+                  </svg>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">1 hour ago</span>
+                  <h5 class="text-body mb-2">Message</h5>
+                  <p class="mb-0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-span">Yesterday</p>
+          <div class="card mb-2">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <svg class="pc-icon text-primary">
+                    <use xlink:href="#custom-document-text"></use>
+                  </svg>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">2 hour ago</span>
+                  <h5 class="text-body mb-2">Forms</h5>
+                  <p class="mb-0"
+                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type</p
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <svg class="pc-icon text-primary">
+                    <use xlink:href="#custom-user-bold"></use>
+                  </svg>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">12 hour ago</span>
+                  <h5 class="text-body mb-2">Challenge invitation</h5>
+                  <p class="mb-2"><span class="text-dark">Jonny aber</span> invites to join the challenge</p>
+                  <button class="btn btn-sm btn-outline-secondary me-2">Decline</button>
+                  <button class="btn btn-sm btn-primary">Accept</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-2">
+            <div class="card-body">
+              <div class="d-flex">
+                <div class="flex-shrink-0">
+                  <svg class="pc-icon text-primary">
+                    <use xlink:href="#custom-security-safe"></use>
+                  </svg>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <span class="float-end text-sm text-muted">5 hour ago</span>
+                  <h5 class="text-body mb-2">Security</h5>
+                  <p class="mb-0"
+                    >Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type</p
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-2">
+          <a href="#!" class="link-danger">Clear all Notifications</a>
+        </div>
+      </div>
+    </li>
+    <li class="dropdown pc-h-item header-user-profile">
+      <a
+        class="pc-head-link dropdown-toggle arrow-none me-0"
+        data-bs-toggle="dropdown"
+        href="#"
+        role="button"
+        aria-haspopup="false"
+        data-bs-auto-close="outside"
+        aria-expanded="false">
+        <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar" />
+      </a>
+      <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
+        <div class="dropdown-header d-flex align-items-center justify-content-between">
+          <h5 class="m-0">Profile</h5>
+        </div>
+        <div class="dropdown-body">
+          <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 225px)">
+            <div class="d-flex mb-1">
+              <div class="flex-shrink-0">
+                <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar wid-35" />
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h6 class="mb-1">Carson Darrin 🖖</h6>
+                <span>carson.darrin@company.io</span>
+              </div>
+            </div>
+            <hr class="border-secondary border-opacity-50" />            
+            <p class="text-span">Manage</p>
+            <a href="#" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-setting-outline"></use>
+                </svg>
+                <span>Settings</span>
+              </span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-share-bold"></use>
+                </svg>
+                <span>Share</span>
+              </span>
+            </a>
+            <a href="#" class="dropdown-item">
+              <span>
+                <svg class="pc-icon text-muted me-2">
+                  <use xlink:href="#custom-lock-outline"></use>
+                </svg>
+                <span>Change Password</span>
+              </span>
+            </a>
+            <hr class="border-secondary border-opacity-50" />                        
+            <div class="d-grid mb-3">
+              <button class="btn btn-primary">
+                <svg class="pc-icon me-2">
+                  <use xlink:href="#custom-logout-1-outline"></use></svg
+                >Logout
+              </button>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+ </div>
+</header>
+<div class="offcanvas pc-announcement-offcanvas offcanvas-end" tabindex="-1" id="announcement" aria-labelledby="announcementLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="announcementLabel">What's new announcement?</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p class="text-span">Today</p>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="align-items-center d-flex flex-wrap gap-2 mb-3">
+          <div class="badge bg-light-success f-12">Big News</div>
+          <p class="mb-0 text-muted">2 min ago</p>
+          <span class="badge dot bg-warning"></span>
+        </div>
+        <h5 class="mb-3">Able Pro is Redesigned</h5>
+        <p class="text-muted">Able Pro is completely renowed with high aesthetics User Interface.</p>
+        <img src="../assets/images/layout/img-announcement-1.png" alt="img" class="img-fluid mb-3" />
+        <div class="row">
+          <div class="col-12">
+            <div class="d-grid"
+              ><a
+                class="btn btn-outline-secondary"
+                href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403"
+                target="_blank"
+                >Check Now</a
+              ></div
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="align-items-center d-flex flex-wrap gap-2 mb-3">
+          <div class="badge bg-light-warning f-12">Offer</div>
+          <p class="mb-0 text-muted">2 hour ago</p>
+          <span class="badge dot bg-warning"></span>
+        </div>
+        <h5 class="mb-3">Able Pro is in best offer price</h5>
+        <p class="text-muted">Download Able Pro exclusive on themeforest with best price. </p>
+        <a
+          href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403"
+          target="_blank"
+          ><img src="../assets/images/layout/img-announcement-2.png" alt="img" class="img-fluid"
+        /></a>
+      </div>
+    </div>
+
+    <p class="text-span mt-4">Yesterday</p>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="align-items-center d-flex flex-wrap gap-2 mb-3">
+          <div class="badge bg-light-primary f-12">Blog</div>
+          <p class="mb-0 text-muted">12 hour ago</p>
+          <span class="badge dot bg-warning"></span>
+        </div>
+        <h5 class="mb-3">Featured Dashboard Template</h5>
+        <p class="text-muted">Do you know Able Pro is one of the featured dashboard template selected by Themeforest team.?</p>
+        <img src="../assets/images/layout/img-announcement-3.png" alt="img" class="img-fluid" />
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="align-items-center d-flex flex-wrap gap-2 mb-3">
+          <div class="badge bg-light-primary f-12">Announcement</div>
+          <p class="mb-0 text-muted">12 hour ago</p>
+          <span class="badge dot bg-warning"></span>
+        </div>
+        <h5 class="mb-3">Buy Once - Get Free Updated lifetime</h5>
+        <p class="text-muted">Get the lifetime free updates once you purchase the Able Pro.</p>
+        <img src="../assets/images/layout/img-announcement-4.png" alt="img" class="img-fluid" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Header ] end -->
+
+
+
+    <!-- [ Main Content ] start -->
+    <div class="pc-container">
+      <div class="pc-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="../dashboard/index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="javascript: void(0)">Peserta</a></li>
+                  <li class="breadcrumb-item" aria-current="page">Tabel Peserta</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <div class="page-header-title">
+                  <h2 class="mb-0">Data Peserta</h2>
+                </div>
+              </div>
+              <div class="col-md-6 text-end">
+                <button class="btn btn-primary" data-bs-toggle="modal" id="btn-danger-ac" data-bs-target="#modalAdd"><i class="ti ti-user-plus"></i> Tambah Peserta</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card">
+              <div class="card-header table-card-header">
+                <h5>Master Data Peserta</h5>
+                <small>Anda dapat menambahkan, menyunting, menghapus data yang ada di Tabel Peserta dengan klik Tombol Button yang tersedia. Tersedia Button untuk Print Tabel hingga download menjadi File berformat Excel maupun CSV.</small>
+              </div>
+              <div class="card-body">
+                <div class="dt-responsive table-responsive">
+                  <table id="basic-btn" class="table table-striped table-bordered nowrap">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Usia</th>
+                        <th>Tanggal Lahir</th>                        
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Tiger Nixon</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>61</td>
+                        <td>2011/04/25</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2 mb-4">                            
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>                          
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Garrett Winters</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>63</td>
+                        <td>2011/07/25</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco</td>
+                        <td>66</td>
+                        <td>2009/01/12</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Cedric Kelly</td>
+                        <td>Senior Javascript Developer</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2012/03/29</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>33</td>
+                        <td>2008/11/28</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">                            
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>61</td>
+                        <td>2012/12/02</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Herrod Chandler</td>
+                        <td>Sales Assistant</td>
+                        <td>San Francisco</td>
+                        <td>59</td>
+                        <td>2012/08/06</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Rhona Davidson</td>
+                        <td>Integration Specialist</td>
+                        <td>Tokyo</td>
+                        <td>55</td>
+                        <td>2010/10/14</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Colleen Hurst</td>
+                        <td>Javascript Developer</td>
+                        <td>San Francisco</td>
+                        <td>39</td>
+                        <td>2009/09/15</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Sonya Frost</td>
+                        <td>Software Engineer</td>
+                        <td>Edinburgh</td>
+                        <td>23</td>
+                        <td>2008/12/13</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Jena Gaines</td>
+                        <td>Office Manager</td>
+                        <td>London</td>
+                        <td>30</td>
+                        <td>2008/12/19</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Quinn Flynn</td>
+                        <td>Support Lead</td>
+                        <td>Edinburgh</td>
+                        <td>22</td>
+                        <td>2013/03/03</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Charde Marshall</td>
+                        <td>Regional Director</td>
+                        <td>San Francisco</td>
+                        <td>36</td>
+                        <td>2008/10/16</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Haley Kennedy</td>
+                        <td>Senior Marketing Designer</td>
+                        <td>London</td>
+                        <td>43</td>
+                        <td>2012/12/18</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Tatyana Fitzpatrick</td>
+                        <td>Regional Director</td>
+                        <td>London</td>
+                        <td>19</td>
+                        <td>2010/03/17</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Michael Silva</td>
+                        <td>Marketing Designer</td>
+                        <td>London</td>
+                        <td>66</td>
+                        <td>2012/11/27</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Paul Byrd</td>
+                        <td>Chief Financial Officer (CFO)</td>
+                        <td>New York</td>
+                        <td>64</td>
+                        <td>2010/06/09</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Gloria Little</td>
+                        <td>Systems Administrator</td>
+                        <td>New York</td>
+                        <td>59</td>
+                        <td>2009/04/10</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>41</td>
+                        <td>2012/10/13</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Dai Rios</td>
+                        <td>Personnel Lead</td>
+                        <td>Edinburgh</td>
+                        <td>35</td>
+                        <td>2012/09/26</td>
+                        <td>
+                          <div class="d-flex flex-wrap gap-2">
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalUpdate" class="btn btn-icon btn-success"><i class="ti ti-pencil"></i></button>
+                          <button type="button" data-bs-toggle="modal" data-bs-target="#modalDelete" class="btn btn-icon btn-secondary"><i class="ti ti-trash"></i></button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Usia</th>
+                        <th>Action</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- [ Main Content ] end -->
+      </div>
+    </div>
+    <!-- [ Main Content ] end -->
+    <!-- Modal Delete, Edit, etc.  -->
+                  <div id="modalDelete" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Hapus Data Peserta</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Anda yakin untuk menghapus data [Nama Peserta]?</p>                                        
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                          <button type="button" class="btn btn-primary" id="btn-danger-ac">Lanjutkan</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div id="modalUpdate" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Edit Data Peserta</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="validate-me" id="validate-me" data-validate>
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="alert alert-primary d-flex align-items-center" role="alert">
+                                  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+                                    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                                      <path
+                                        d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                                      </path>
+                                    </symbol>
+                                  </svg>
+                                  <svg class="bi flex-shrink-0 me-2" width="24" height="24">
+                                    <use xlink:href="#info-fill"></use>
+                                  </svg>
+                                  <div> Pastikan kembali data yang Anda update sudah benar. </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="form-label" for="nama">Nama</label>
+                                <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" required>
+                                <small class="form-text text-muted">Masukkan nama lengkap.</small>
+                              </div>
+                              <div class="form-group ">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                <small class="form-text text-muted">Contoh : example@gmail.com.</small>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label" for="tanggalLahir">Tanggal Lahir</label>
+                              <input type="date" class="form-control" id="tanggalLahir" placeholder="Tanggal Lahir" required>
+                            </div>                                                      
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                          <input type="submit" class="btn btn-primary" value="Submit">
+                        </div>
+                      </form>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="modalAdd" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Tambah Data Peserta</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="validate-me" id="validate-me" data-validate>
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="alert alert-primary d-flex align-items-center" role="alert">
+                                  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+                                    <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                                      <path
+                                        d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                                      </path>
+                                    </symbol>
+                                  </svg>
+                                  <svg class="bi flex-shrink-0 me-2" width="24" height="24">
+                                    <use xlink:href="#info-fill"></use>
+                                  </svg>
+                                  <div> Pastikan kembali data yang Anda tambahkan sudah benar. </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="form-label" for="nama">Nama</label>
+                                <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" required>
+                                <small class="form-text text-muted">Masukkan nama lengkap.</small>
+                              </div>
+                              <div class="form-group ">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                <small class="form-text text-muted">Contoh : example@gmail.com.</small>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label" for="tanggalLahir">Tanggal Lahir</label>
+                              <input type="date" class="form-control" id="tanggalLahir" placeholder="Tanggal Lahir" required>
+                            </div>                            
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                          <input type="submit" class="btn btn-primary" value="Submit">
+                        </div>
+                      </form>
+                      </div>
+                    </div>
+                  </div>
+    <!-- End of Modal Delete, Edit, etc.  -->      
+
+    <footer class="pc-footer">
+      <div class="footer-wrapper container-fluid">
+        <div class="row">
+          <div class="col my-1">
+            <p class="m-0">Copyright @2024. PT Sarimelati Kencana Tbk.</p>
+          </div>
+          <div class="col-auto my-1">
+            <ul class="list-inline footer-link mb-0">
+              <li class="list-inline-item"><a href="../index.html">Home</a></li>
+              <li class="list-inline-item"><a href="https://phoenixcoded.gitbook.io/able-pro/" target="_blank">Documentation</a></li>
+              <li class="list-inline-item"><a href="https://phoenixcoded.authordesk.app/" target="_blank">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> 
+    
+    <!-- [Page Specific JS] start -->    
+    <script src="../assets/js/pages/dashboard-default.js"></script>
+    <!-- [Page Specific JS] end -->
+    <!-- Required Js -->
+    <script src="../assets/js/plugins/popper.min.js"></script>
+    <script src="../assets/js/plugins/simplebar.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap.min.js"></script>
+    <script src="../assets/js/fonts/custom-font.js"></script>
+    <script src="../assets/js/pcoded.js"></script>
+    <script src="../assets/js/plugins/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../assets/js/plugins/jquery.dataTables.min.js"></script>
+    <script src="../assets/js/plugins/dataTables.bootstrap5.min.js"></script>
+    <script src="../assets/js/plugins/buttons.colVis.min.js"></script>
+    <script src="../assets/js/plugins/buttons.print.min.js"></script>
+    <script src="../assets/js/plugins/pdfmake.min.js"></script>
+    <script src="../assets/js/plugins/jszip.min.js"></script>
+    <script src="../assets/js/plugins/dataTables.buttons.min.js"></script>
+    <script src="../assets/js/plugins/vfs_fonts.js"></script>
+    <script src="../assets/js/plugins/buttons.html5.min.js"></script>
+    <script src="../assets/js/plugins/buttons.bootstrap5.min.js"></script>
+    <script src="../assets/js/plugins/bouncer.min.js"></script>
+    <script src="../assets/js/pages/form-validation.js"></script>    
+    <script src="../assets/js/plugins/notifier.js"></script>
+    <script src="../assets/js/pages/ac-notification.js"></script>
+    <script>
+      // [ HTML5 Export Buttons ]
+      $('#basic-btn').DataTable({
+        dom: 'Bfrtip',
+        buttons: ['copy', 'csv', 'excel', 'print']
+      });
+
+      // [ Column Selectors ]
+      $('#cbtn-selectors').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+          {
+            extend: 'copyHtml5',
+            exportOptions: {
+              columns: [0, ':visible']
+            }
+          },
+          {
+            extend: 'excelHtml5',
+            exportOptions: {
+              columns: ':visible'
+            }
+          },
+          {
+            extend: 'pdfHtml5',
+            exportOptions: {
+              columns: [0, 1, 2, 5]
+            }
+          },
+          'colvis'
+        ]
+      });
+
+      // [ Excel - Cell Background ]
+      $('#excel-bg').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+          {
+            extend: 'excelHtml5',
+            customize: function (xlsx) {
+              var sheet = xlsx.xl.worksheets['sheet1.xml'];
+              $('row c[r^="F"]', sheet).each(function () {
+                if ($('is t', this).text().replace(/[^\d]/g, '') * 1 >= 500000) {
+                  $(this).attr('s', '20');
+                }
+              });
+            }
+          }
+        ]
+      });
+    </script>
+
+    <script>layout_change('light');</script>
+    <script>layout_theme_contrast_change('true');</script>
+    <script>change_box_container('false');</script>
+    <script>layout_caption_change('true');</script>
+    <script>layout_rtl_change('false');</script>
+    <script>preset_change("preset-5");</script>
+    
+  </body>
+  <!-- [Body] end -->
+</html>
